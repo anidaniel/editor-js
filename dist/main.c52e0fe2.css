@@ -1,2 +1,27 @@
-/* No CSS */
+body {
+  background: rgba(233, 233, 233, 0.582);
+  height: 100%;
+  padding: 3em;
+  font-family: 'Montserrat';
+}
+
+#editorjs {
+  background: white;
+}
+
+button {
+  background: #00aeff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+#ani {
+  color: #00aeff;
+}
+
+
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
