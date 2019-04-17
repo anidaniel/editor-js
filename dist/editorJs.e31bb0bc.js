@@ -218,7 +218,7 @@ var editor = new _editorjs.default({
 });
 var saveBtn = document.querySelector('button');
 saveBtn.addEventListener('click', function () {
-  editor.saver().then(function (outputData) {
+  editor.save().then(function (outputData) {
     console.log('Article data: ', outputData);
   }).catch(function (error) {
     console.log('Saving failed: ', error);
@@ -252,7 +252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49396" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62869" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

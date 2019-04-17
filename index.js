@@ -33,7 +33,7 @@ const editor = new EditorJs({
 let saveBtn = document.querySelector('button');
 
 saveBtn.addEventListener('click', function() {
-    editor.saver().then((outputData) => {
+    editor.save().then((outputData) => {
         console.log('Article data: ', outputData)
     }).catch((error) => {
         console.log('Saving failed: ', error)
