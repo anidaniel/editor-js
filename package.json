@@ -1,7 +1,7 @@
 {
   "name": "editorJs",
-  "version": "1.5.0",
-  "description": "",
+  "version": "1.5.2",
+  "description": "Simple intuitive editor page web application.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
