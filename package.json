@@ -1,13 +1,13 @@
 {
   "name": "editorJs",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aniruddha Prasad",
   "license": "ISC",
   "devDependencies": {
     "@editorjs/editorjs": "^2.12.4"
