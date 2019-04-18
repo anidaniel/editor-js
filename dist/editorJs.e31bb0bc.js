@@ -212,7 +212,15 @@ var editor = new _editorjs.default({
       config: {
         youtube: true,
         coub: true
-      }
+      } //quote: {
+      //    class: Quote,
+      //    inlineToolbar: true,
+      //    config: {
+      //        quotePlaceholder: 'Enter a quote',
+      //        captionPlaceholder: 'Quote\'s author',
+      //    },
+      //},
+
     }
   }
 });
@@ -252,7 +260,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62869" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58385" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

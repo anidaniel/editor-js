@@ -25,8 +25,17 @@ const editor = new EditorJs({
             config: {
                 youtube: true,
                 coub: true
-            }
+            },
         }
+
+        //quote: {
+        //    class: Quote,
+        //    inlineToolbar: true,
+        //    config: {
+        //        quotePlaceholder: 'Enter a quote',
+        //        captionPlaceholder: 'Quote\'s author',
+        //    },
+        //},
     }
 })
 
